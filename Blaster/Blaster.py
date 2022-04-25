@@ -19,7 +19,7 @@ sp = c.create_image(B/2, H/2, image=img)
 SP_R = 45
 
 # Spaceship moves
-SP_GESCHW = 10
+SP_GESCHW = 25
 def sp_bewegen(event):
     x, y = c.coords(sp)
     if event.keysym == "Up":
